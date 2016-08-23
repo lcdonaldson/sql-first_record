@@ -1,11 +1,11 @@
 SELECT 
-  home_teacher.id, 
-  home_teacher.name, 
-  home_teacher.age, 
-  home_teacher.companion
+  id, 
+  name, 
+  age, 
+  companion
 FROM home_teaching
-WHERE home_teacher.age > 30;
+WHERE age > 30;
 
-INSERT INTO home_teaching (home_teacher.comapanion)
+INSERT INTO home_teaching (comapanion)
 VALUES('Raymond');
     

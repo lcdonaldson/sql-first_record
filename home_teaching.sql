@@ -5,4 +5,7 @@ SELECT
   home_teacher.companion
 FROM home_teaching
 WHERE home_teacher.age > 30;
+
+INSERT INTO home_teaching (home_teacher.comapanion)
+VALUES('Raymond');
     

@@ -26,3 +26,6 @@ FROM home_teacher
 WHERE age > 30;
 
 DELETE FROM home_teacher WHERE id = 5;
+
+INSERT INTO home_teaching (id, name, age, companion)
+VALUES(5, 'David', 25, 'Sam');

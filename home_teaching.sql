@@ -1,4 +1,3 @@
-
 CREATE DATABASE home_teaching;
 
 CREATE TABLE home_teacher (

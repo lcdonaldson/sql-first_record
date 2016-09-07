@@ -3,9 +3,9 @@ CREATE DATABASE home_teaching;
 
 CREATE TABLE home_teacher (
 id int,
-name varchar (255),
+name varchar (55),
 age int,
-companion varchar(255)
+companion varchar(55)
 );
 
 INSERT INTO home_teaching (id, name, age, comapanion)
@@ -32,3 +32,12 @@ DELETE FROM home_teacher WHERE id = 5;
 
 INSERT INTO home_teaching (id, name, age, companion)
 VALUES(5, 'David', 25, 'Sam');
+
+CREATE TABLE area (
+id int,
+neighborhood varchar (50),
+street varchar (50),
+address varchar(55)
+);
+
+

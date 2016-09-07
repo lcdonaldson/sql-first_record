@@ -1,3 +1,6 @@
+
+CREATE DATABASE home_teaching;
+
 CREATE TABLE home_teacher (
 id int,
 name varchar (255),

@@ -21,6 +21,12 @@ VALUES(4, 'John', 33, 'Eric');
 
 INSERT INTO home_teaching (id, name, age, comapanion)
 VALUES(5, 'Ryan', 37, 'Dee');
+
+SELECT sum(age)
+FROM home_teacher
+WHERE id > 2
+GROUP BY name
+HAVING COUNT(*) > 1;
     
 SELECT 
   id, name, age, companion

@@ -101,3 +101,8 @@ SELECT Address.AddressId, Address.UserID, Address.StreetAddress1, Address.Street
 FROM Address
 INNER JOIN [User]
 ON Address.UserID=[User].UserId;
+
+// 3rd query
+
+SELECT * FROM [User]
+ORDER BY EmailAddress DESC;

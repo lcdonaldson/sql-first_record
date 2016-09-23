@@ -45,4 +45,6 @@ street varchar (50),
 address varchar(55)
 );
 
+INSERT INTO area (id, neighborhood, street, address)
+VALUES(1, 'standing oaks', 'richardson', '740');
 

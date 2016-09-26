@@ -24,7 +24,7 @@ VALUES(5, 'Ryan', 37, 'Dee');
 
 SELECT sum(age)
 FROM home_teacher
-WHERE id > 2
+WHERE id > 2 and age > 35
 GROUP BY name
 HAVING COUNT(*) > 1;
     

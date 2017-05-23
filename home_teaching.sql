@@ -48,3 +48,11 @@ address varchar(55)
 INSERT INTO area (id, neighborhood, street, address)
 VALUES(1, 'standing oaks', 'richardson', '740');
 
+CREATE TABLE Persons (
+ID int NOT NULL AUTO_INCREMENT,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Age int,
+PRIMARY KEY (ID)
+);
+

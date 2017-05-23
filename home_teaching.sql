@@ -56,3 +56,4 @@ Age int,
 PRIMARY KEY (ID)
 );
 
+DELETE FROM Persons WHERE id = 2;

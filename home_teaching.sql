@@ -42,6 +42,9 @@ DELETE FROM home_teacher WHERE id = 5;
 INSERT INTO home_teaching (id, name, age, companion)
 VALUES(5, 'David', 25, 'Sam');
 
+INSERT INTO home_teaching (id, name, age, comapanion)
+VALUES(6, 'Will', 37, 'Robert');
+
 CREATE TABLE area (
 id int,
 neighborhood varchar (50),
@@ -60,4 +63,5 @@ Age int,
 PRIMARY KEY (ID)
 );
 
-DELETE FROM Persons WHERE id = 2;
+INSERT INTO Persons (LastName, FirstName, Age)
+VALUES('Molder', 'Ted', 26);

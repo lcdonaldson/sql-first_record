@@ -22,6 +22,10 @@ VALUES(4, 'John', 33, 'Eric');
 INSERT INTO home_teaching (id, name, age, comapanion)
 VALUES(5, 'Ryan', 37, 'Dee');
 
+UPDATE home_teaching
+SET companion = 'Levi'
+WHERE id='3';
+
 SELECT sum(age)
 FROM home_teacher
 WHERE id > 2 and age > 35

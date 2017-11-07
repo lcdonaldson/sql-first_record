@@ -96,13 +96,15 @@ SELECT * FROM [User]
 ORDER BY LastName, CreatedDateTime, CONVERT(datetimeoffset, GETDATE());
 
 // 2nd query
+SELECT * FROM User WHERE StreetAddress1 IN (102, 103, 104);         
 
+// 3rd query
 SELECT Address.AddressId, Address.UserID, Address.StreetAddress1, Address.StreetAddress2, Address.PostalCode, Address.City, Address.State, Address.CreatedDateTime
 FROM Address
 INNER JOIN [User]
 ON Address.UserID=[User].UserId;
 
-// 3rd query
+// 4th query
 
 SELECT * FROM [User]
 ORDER BY EmailAddress DESC;

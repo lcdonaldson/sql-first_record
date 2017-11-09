@@ -108,3 +108,12 @@ ON Address.UserID=[User].UserId;
 
 SELECT * FROM [User]
 ORDER BY EmailAddress DESC;
+        
+// 5th query (join on table not shown)
+
+SELECT products.gpid, products.title
+FROM variants
+INNER JOIN products ON variants.gpid=products.gpid
+WHERE(products.spid IS NOT NULL OR products.spid != 0)
+AND(grams IS NULL OR grams = 0);
+        

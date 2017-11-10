@@ -117,3 +117,9 @@ INNER JOIN products ON variants.gpid=products.gpid
 WHERE(products.spid IS NOT NULL OR products.spid != 0)
 AND(grams IS NULL OR grams = 0);
         
+// 6th query (join on table also not shown)
+
+SELECT users.fname, users.lname
+FROM audit_media
+INNER JOIN users ON audit_media.guid=users.id
+WHERE (audit_media.id IS NOT NULL OR audit_media.id >= 0);

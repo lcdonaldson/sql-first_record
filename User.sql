@@ -123,3 +123,12 @@ SELECT users.fname, users.lname
 FROM audit_media
 INNER JOIN users ON audit_media.guid=users.id
 WHERE (audit_media.id IS NOT NULL OR audit_media.id >= 0);
+
+*******************************
+        7th query
+*******************************
+        
+SELECT users.fname, users.lname count(users.id)
+FROM audit_media
+INNER JOIN users ON audit_media.guid=users.id
+WHERE audit_media.id IS NOT NULL;        

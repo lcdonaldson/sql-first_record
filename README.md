@@ -8,5 +8,6 @@ Some of the things I will do here are:
 - Insert
 - Update
 - Delete
+- Group by
 - Joins
 ```

@@ -9,5 +9,6 @@ Some of the things I will do here are:
 - Update
 - Delete
 - Group by
+- Order by
 - Joins
 ```
